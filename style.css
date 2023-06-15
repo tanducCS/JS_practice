@@ -1,0 +1,36 @@
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+table{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 40%;
+    height: 40%;
+}
+
+
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.calculator table td input{
+    height: 100px;
+    width: 100%;
+}
+
