@@ -4,19 +4,24 @@ html{
 }
 
 body{
+    margin: 0;
     height: 100%;
 }
 
 .main{
+    
     height: 100%;
     width: 100%;
 }
 
 table{
-    border: 1px solid black;
+    padding: 20px;
+    border: 7px solid rgb(105, 22, 22);
     border-radius: 5px;
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 50%;
+    border-radius: 20px;
+    background-color: aqua;
 }
 
 
@@ -30,7 +35,17 @@ table{
 
 
 .calculator table td input{
+    border-radius: 20px;
+    border: 7px solid rgb(105, 22, 22);
+    background-color: rgb(255, 215, 167);
+    font-size: xx-large;
+    color: blue;
     height: 100px;
     width: 100%;
+    padding-right: 0;
+}
+
+#calculator--output{
+    color:gray;
 }
 
